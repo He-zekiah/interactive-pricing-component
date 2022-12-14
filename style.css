@@ -1,0 +1,247 @@
+@import url(https://fonts.google.com/specimen/Manrope);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(230, 100%, 99%);
+    background-image: url(./images/bg-pattern.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 30rem;
+}
+
+.logo {
+    top: 0;
+    position: relative;
+}
+
+.header {
+    position: absolute;
+    top: 115px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* margin-bottom: 90px; */
+}
+
+.head {
+    font-size: 30px;
+    font-weight: 800;
+    color: hsl(227, 35%, 25%);
+    line-height: 50px;
+}
+
+.head2 {
+    font-size: 15px;
+    font-weight: 800;
+    color: hsl(225, 20%, 60%);
+}
+
+.content {
+    margin-top: 80px;
+    width: 600px;
+    height: 450px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px 20px 40px;
+    box-shadow: 0 8px 4px hsl(0, 1%, 85%);
+}
+
+.dur {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.view {
+    color: hsl(225, 20%, 60%);
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 800;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.price2 {
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.show {
+    display: flex;
+}
+
+.amt {
+    font-size: 50px;
+    font-weight: 800;
+    color: hsl(227, 35%, 25%);
+    margin-right: 10px;
+}
+
+.mon {
+    color: hsl(225, 20%, 60%);
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 800;
+}
+
+.slide {
+    height: 8px;
+    width: 100%;
+    background-color: hsl(224, 65%, 95%);
+    border-radius: 15px;
+    position: relative;
+    margin-bottom: 40px
+}
+
+.slider {
+    height: 8px;
+    width: 50%;
+    background-color: hsl(174, 86%, 45%);
+    border-radius: 15px;
+    position: absolute;
+}
+
+.icon {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    background-color: hsl(174, 95%, 50%);
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: -10px;
+    left: 250px;
+}
+
+.move {
+    margin-top: 8px;
+    margin-left: 4px;
+}
+
+.toggle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    margin-bottom: 50px;
+}
+
+.tog {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 280px;
+}
+
+.light {
+    width: 50px;
+    height: 25px;
+    background-color: hsl(223, 50%, 87%);
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.active {
+    background-color: hsl(174, 77%, 80%);
+    transition: all 0.5s ease;
+}
+
+.round {
+    background-color: aliceblue;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin-top: 3px;
+    margin-left: 2px;
+    transition: all 0.5s ease;
+
+}
+
+.active2 {
+    margin-left: 28px;
+    transition: all 0.5s ease;
+}
+
+.discount {
+    background-color: hsl(14, 92%, 95%);
+    color: hsl(15, 100%, 70%);
+    width: 100px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.bolten {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.check {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-top: -12px;
+}
+
+.tick {
+    margin-top: 10px;
+}
+
+.bolt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.click {
+    width: 150px;
+    height: 30px;
+    background-color: hsl(227, 35%, 25%);
+    border-radius: 20px;
+    color: hsl(226, 100%, 87%);
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.click:hover {
+    background-color: hsl(226, 100%, 87%);
+    color: rgb(9, 9, 9);
+    border: 1px solid hsl(226, 100%, 87%);
+}
